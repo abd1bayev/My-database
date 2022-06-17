@@ -28,19 +28,29 @@ from table_2 import *
 from table_3 import *
 
 ## Usage
-python all.py 
 
-      Gender   FirstName LastName                        Email Age           City Country
+     Gender   FirstName LastName                        Email Age           City Country
+     
 0     Female     Latesha   Barton          forgottoask@woodinc  85   Indianapolis     USA
+
 1     Female     Yolando     Jast       yolando_jast@yahoo.com  53       Columbus     USA
+
 2       Male       Stacy  Johnson      stacy.johnson@yahoo.com  64   Indianapolis     USA
+
 3       Male       Abdul   Mayert     mayert.abdul@hotmail.com  79        Phoenix     USA
+
 4       Male      Julius  Reinger   reinger_julius@hotmail.com  65   Jacksonville     USA
+
 ...      ...         ...      ...                          ...  ..            ...     ...
+
 9995    Male        Russ  Effertz       russ.effertz@gmail.com  39        Chicago     USA
+
 9996  Female      Temeka  Padberg   padberg_temeka@hotmail.com  95   Indianapolis     USA
+
 9997    Male  Alessandra   Fisher  alessandra_fisher@yahoo.com  24         Dallas     USA
+
 9998  Female      Virgie   Blanda    virgie.blanda@hotmail.com  59        Phoenix     USA
+
 9999    Male  Kristopher    Terry   kristopher.terry@yahoo.com  53       San Jose     USA
 
 [30000 rows x 7 columns]
