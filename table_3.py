@@ -4,7 +4,7 @@ def table_3():
 
 ########################################################################################################################################################################
 
-    table_3 = pd.read_csv("file:///home/docode/project/table.csv/only_wood_customer_us_3.csv", delimiter= '\t', names= ['Gender','Name','Email','Age','City','Country'],
+    table_3 = pd.read_csv("only_wood_customer_us_3.csv", delimiter= '\t', names= ['Gender','Name','Email','Age','City','Country'],
                  header= 0, na_values= ['N/A'])
 
 ########################################################################################################################################################################
