@@ -11,8 +11,8 @@ def table_1():
     table_1['LastName'] = table_1['LastName'].str.capitalize()
     table_1['City'] = table_1['City'].str.replace('_',' ')
     table_1['City'] = table_1['City'].str.replace('-',' ')
-    table_1['FirstName'] = table_1['FirstName'].replace('\\','')
-    table_1['LastName'] = table_1['LastName'].replace('\\','')
+    table_1['FirstName'] = table_1['FirstName'].str.replace('\\','')
+    table_1['LastName'] = table_1['LastName'].str.replace('\\','')
     table_1['FirstName'] = table_1['FirstName'].str.replace('"','')
     table_1['LastName'] = table_1['LastName'].str.replace('"','')
     table_1['City'] = table_1['City'].str.title()
@@ -32,8 +32,8 @@ def table_2():
     table_2['Gender'] = table_2['Gender'].replace(gender)
     table_2['Country'] = 'USA'
     table_2["Email"] = table_2["Email"].str.lower()
-    table_2['FirstName'] = table_2['FirstName'].replace('\\','').str.replace('"','').str.capitalize()
-    table_2['LastName'] = table_2['LastName'].replace('\\','').str.replace('"','').str.capitalize()
+    table_2['FirstName'] = table_2['FirstName'].str.replace('\\','').str.replace('"','').str.capitalize()
+    table_2['LastName'] = table_2['LastName'].str.replace('\\','').str.replace('"','').str.capitalize()
     table_2 = table_2[["Gender","FirstName", "LastName", "Email", "Age", "City", "Country"]]
 
     return table_2
@@ -56,8 +56,8 @@ def table_3():
     Gender = table_3['Gender'] = table_3['Gender'].replace(gender)
     table_3['Country'] = 'USA'
     table_3["Email"] = table_3["Email"].str.lower()
-    table_3['FirstName'] = table_3['FirstName'].replace('\\', '')
-    table_3['LastName'] = table_3['LastName'].replace('\\', '')
+    table_3['FirstName'] = table_3['FirstName'].str.replace('\\', '')
+    table_3['LastName'] = table_3['LastName'].str.replace('\\', '')
     table_3['FirstName'] = table_3['FirstName'].str.replace('"', '')
     table_3['LastName'] = table_3['LastName'].str.replace('"', '')
     table_3['FirstName'] = table_3['FirstName'].str.capitalize()
